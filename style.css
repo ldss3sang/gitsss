@@ -26,3 +26,35 @@
 .리아님 {
   color: palevioletred;
 }
+
+.bong{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  height:  500px;
+  animation: mymove 4s infinite ease-in-out;
+}
+
+.bong h3 {
+  font-weight: 700;
+  font-style: italic;
+  
+}
+
+.bong img{
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
+
+.bong span{
+  margin-top: 10px;
+  font-weight: 700;
+}
+
+@keyframes mymove {
+  from {background-color: aliceblue;}
+  to {background-color: azure;}
+}
